@@ -1,2 +1,2 @@
 # LandingPage-Kuliner
-masuk via akun github!
+jangan lupa bintang nya
