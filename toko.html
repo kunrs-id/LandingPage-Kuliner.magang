@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="Babette">
+  <link href="assets/images/icons/10.png" rel="icon">
+  <title>Siska</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Rubik:400,500,700%7cShadows+Into+Light&display=swap">
+  <link rel="stylesheet" href="assets/css/libraries.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- =========================
+        Header
+    =========================== -->
+    <header id="header" class="header header-transparent header-layout1">
+      <nav class="navbar navbar-expand-lg sticky-navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/icons/20.png" width="200px" class="logo-light" alt="logo">
+            <img src="assets/images/icons/20.png" width="150px" class="logo-dark" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button">
+            <span class="menu-lines"><span></span></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNavigation">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav__item">
+                <a href="#"  class="nav__item-link active">Beranda</a>                
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__item-link">Tentang</a>                
+              </li>
+              <li class="nav__item">
+                <a href="#"  class="nav__item-link">Menu</a>                
+              </li>
+              <li class="nav__item">
+                <a href="#"  class="nav__item-link">Galeri</a>                
+              </li>
+              <li class="nav__item">
+                <a href="#"  class="nav__item-link">Blog</a>                
+              </li>
+              <li class="nav__item">
+                <a href="#"  class="nav__item-link">Toko</a>                
+              </li>              
+            </ul>
+          </div>
+          <div class="navbar-actions-wrap">
+            <div class="navbar-actions d-flex align-items-center">
+              <a href="#" class="navbar__action-btn search-popup-trigger"><i class="fa fa-search"></i></a>
+              <a href="#"
+                class="navbar__action-btn navbar__action-btn-reserve btn btn__primary">Reservation</a>
+              <a href="#" class="navbar__action-btn navbar__action-btn-cart">
+                <i class="icon-cart"></i><span class="cart__label">2</span>
+              </a>
+              <div class="cart-popup">
+                <ul class="list-unstyled">
+                  <li class="cart-item">
+                    <div class="cart__item-img"><img src="assets/images/shop/thumbs/1.png" alt="barang"></div>
+                    <div class="cart__item-content">
+                      <h6 class="cart__item-title">Barang 1</h6>
+                      <div class="cart__item-detail">Rp. 5.000</div>
+                      <i class="cart__item-delete">&times;</i>
+                    </div><!-- /.cart-item-content -->
+                  </li><!-- /.cart-item -->
+                  <li class="cart-item">
+                    <div class="cart__item-img"><img src="assets/images/shop/thumbs/2.png" alt="barang"></div>
+                    <div class="cart__item-content">
+                      <h6 class="cart__item-title">Barang 2</h6>
+                      <div class="cart__item-detail">Rp. 20.000</div>
+                      <i class="cart__item-delete">&times;</i>
+                    </div><!-- /.cart-item-content -->
+                  </li><!-- /.cart-item -->
+                </ul>
+                <div class="cart-subtotal">
+                  <span>Subtotal:</span>
+                  <span class="color-theme">Rp. 25.000</span>
+                </div><!-- /.cart-subtotal -->
+                <div class="cart-action d-flex justify-content-between">
+                  <a href="#" class="btn btn__primary btn__hover2">Keranjang</a>
+                  <a href="#" class="btn btn__white">Checkout</a>
+                </div><!-- /.cart-action -->
+              </div><!-- /.cart-popup -->
+            </div><!-- /.navbar-actions -->
+          </div><!-- /.navbar-actions-wrap -->
+        </div><!-- /.container -->
+      </nav><!-- /.navabr -->
+    </header><!-- /.Header -->
+
+    <!-- ========================
+       page title 
+    =========================== -->
+    <section id="page-title" class="page-title page-title-layout14 bg-overlay bg-overlay-2">
+      <div class="bg-img"><img src="assets/images/backgrounds/3.jpg" alt="background"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <h1 class="pagetitle__heading">Produk Tunggal</h1>            
+          </div><!-- /.col-lg-12 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.page-title -->
+
+    <!-- ========================
+       product single
+    =========================== -->
+    <section id="productSingle" class="shop product-single pb-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="alert-panel d-flex align-items-center justify-content-between">
+              <div class="alert__content">
+                <h6 class="alert__title">“(nama barang)" telah ditambahkan ke keranjang Anda.</h6>
+              </div><!-- /.alert__content-->
+              <div class="alert__action">
+                <a href="#" class="btn btn__primary">Lihat Keranjangt</a>
+              </div><!-- /.alert__action-->
+            </div><!-- /.alert-panel-->
+          </div><!-- /.col-lg-12 -->
+        </div><!-- /.row -->
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="product__single-img">
+              <img src="assets/images/shop/full/1.jpg" class="zoomin" alt="product">
+            </div><!-- /.product-img -->
+          </div><!-- /.col-lg-6 -->
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <h4 class="product__title">(nama barang)</h4>
+            <span class="product__price">Rp. </span>
+            <hr class="hr-dashed mt-30 mb-30">
+            <div class="product__desc">
+              <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. In eveniet, temporibus, dicta nostrum quae dolore nihil similique distinctio qui pariatur accusamus vero rem laudantium accusantium? Vero veritatis quibusdam necessitatibus. Enim. </p>
+            </div><!-- /.product-desc -->
+            <form class="product__form-wrap mb-30">
+              <div class="product__quantity d-flex">
+                <div class="quantity__input-wrap mr-20">
+                  <i class="decrease-qty"></i>
+                  <input type="number" value="1" class="qty-input">
+                  <i class="increase-qty"></i>
+                </div>
+                <button class="btn btn__primary">tambahkan ke keranjang</button>
+              </div><!-- /.product-quantity -->
+            </form>
+            <div class="product__meta">
+              <div class="product__meta-cat">
+                <span class="product__meta-title">kategori:</span>
+                <a href="#">asesoris</a>
+                <a href="#">pajangan</a>
+              </div><!-- /.product__meta-cat -->
+              <div class="product__meta-tags">
+                <span class="product__meta-title">Tags:</span>                
+                <a href="#">voucher</a>
+                <a href="#">promo</a>
+              </div><!-- /.product__meta-tags -->
+            </div><!-- /.product__meta -->
+            <hr class="hr-dashed mt-30 mb-30">
+            <div class="product__share d-flex align-items-center">
+              <h6 class="product__share-title mb-0 mr-20">bagikan:</h6>
+              <ul class="social__icons">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div><!-- /.product-share -->
+          </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
+            <div class="product__tabs mt-90">
+              <nav class="nav nav-tabs justify-content-center">
+                <a class="nav__link active" data-toggle="tab" href="#Description">Diskripsi</a>
+                <a class="nav__link" data-toggle="tab" href="#Details">Informasi Tambahan</a>
+                <a class="nav__link" data-toggle="tab" href="#Reviews">Ulasan (25)</a>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="Description">
+                  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nostrum sequi iusto veniam, minus, illum maxime nobis pariatur aut perferendis obcaecati nemo. Beatae nihil perferendis obcaecati similique incidunt cupiditate animi. </p>
+                </div><!-- /.desc-tab -->
+                <div class="tab-pane fade" id="Details">
+                  <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic atque in numquam optio suscipit sint accusamus, eligendi asperiores ullam voluptatibus quas maiores corporis sit, impedit explicabo temporibus facere quam iusto! </p>
+                </div><!-- /.details-tab -->
+                <div class="tab-pane fade" id="Reviews">
+                  <form class="row reviews__form">
+                    <div class="col-sm-6 form-group">
+                      <label for="reviewerName">Nama</label>
+                      <input id="reviewerName" type="text" class="form-control">
+                    </div><!-- /.form-group -->
+                    <div class="col-sm-6 form-group">
+                      <label for="reviewerEmail">Email</label>
+                      <input id="reviewerEmail" type="text" class="form-control">
+                    </div><!-- /.form-group -->
+                    <div class="col-sm-12 form-group">
+                      <label for="reviewerReview">Pengulas</label>
+                      <textarea id="reviewerReview" class="form-control"></textarea>
+                    </div><!-- /.form-group -->
+                    <div class="col-sm-12">
+                      <button type="submit" class="btn btn__primary">Kirim</button>
+                    </div>
+                  </form>
+                </div><!-- /.reviews-tab -->
+              </div>
+            </div><!-- /.product-tabs -->
+          </div><!-- /.col-lg-12 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.product single -->
+
+    <!-- ========================
+      Related products
+    =========================== -->
+    <section id="related-products" class="relted-products text-center pt-80 pb-40">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <h6 class="related__products-title font-weight-bold mb-30">Produk Terkait</h6>
+          </div><!-- /.col-lg-12 -->
+        </div><!-- /.row -->
+        <div class="row">
+          <!-- Product item #1 -->
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="product-item">
+              <div class="product__img">
+                <img src="assets/images/shop/grid/1.jpg" alt="Product">
+                <div class="product__hover">
+                  <div class="product__action">
+                    <a href="#" class="btn btn__primary btn__hover2">tambahkan ke keranjang</a>
+                  </div><!-- /.product__action -->
+                </div><!-- /.product__hover-->
+              </div><!-- /.product-img -->
+              <div class="product__content">
+                <div class="product__cat">
+                  <a href="#">Light</a>
+                  <a href="#">Mexican</a>
+                  <a href="#">Organic</a>
+                </div>
+                <h4 class="product__title"><a href="#">barang 3</a></h4>
+                <span class="product__price">Rp. </span>
+              </div><!-- /.product-content -->
+            </div><!-- /.product-item -->
+          </div><!-- /.col-lg-4 -->
+          <!-- Product item #2 -->
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="product-item">
+              <div class="product__img">
+                <img src="assets/images/shop/grid/2.jpg" alt="Product">
+                <div class="product__hover">
+                  <div class="product__action">
+                    <a href="#" class="btn btn__primary btn__hover2">tambahkan ke keranjang</a>
+                  </div><!-- /.product__action -->
+                </div><!-- /.product__hover-->
+              </div><!-- /.product-img -->
+              <div class="product__content">
+                <div class="product__cat">
+                  <a href="#">Low Carb</a>
+                  <a href="#">Fresh</a>
+                </div>
+                <h4 class="product__title"><a href="#">barang 4</a></h4>
+                <span class="product__price">Rp. </span>
+              </div><!-- /.product-content -->
+            </div><!-- /.product-item -->
+          </div><!-- /.col-lg-4 -->
+          <!-- Product item #3 -->
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="product-item">
+              <div class="product__img">
+                <img src="assets/images/shop/grid/3.jpg" alt="Product">
+                <div class="product__hover">
+                  <div class="product__action">
+                    <a href="#" class="btn btn__primary btn__hover2">tambahkan ke keranjang</a>
+                  </div><!-- /.product__action -->
+                </div><!-- /.product__hover-->
+              </div><!-- /.product-img -->
+              <div class="product__content">
+                <div class="product__cat">
+                  <a href="#">Nut Free</a>
+                  <a href="#">Sweet</a>
+                  <a href="#">Fresh</a>
+                </div>
+                <h4 class="product__title"><a href="#">barang 5</a></h4>
+                <span class="product__price">Rp. </span>
+              </div><!-- /.product-content -->
+            </div><!-- /.product-item -->
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.related-products -->
+
+    <!-- ========================
+      Footer
+    ========================== -->
+    <footer id="footer" class="footer footer-layout1 text-center bg-dark">
+      <div class="footer-inner">
+        <div class="container">
+          <div class="footer-top">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12 position-static">
+                <svg class="footer__divider-shape" xmlns="http://www.w3.org/2000/svg" width="22" height="61"
+                  viewBox="0 0 22 61">
+                  <path
+                    d="M799,769h2v61h-2V769Zm8,24.8a0.969,0.969,0,0,0-1.911,0,3.012,3.012,0,0,1-.883,2.16,4.486,4.486,0,0,0,0,6.136,3.083,3.083,0,0,1,0,4.32,4.486,4.486,0,0,0,0,6.136,3.088,3.088,0,0,1,0,4.325,4.5,4.5,0,0,0,0,6.142,3.014,3.014,0,0,1,.884,2.163,0.969,0.969,0,0,0,1.911,0,4.414,4.414,0,0,0-1.213-3.07,3.091,3.091,0,0,1,0-4.328,4.491,4.491,0,0,0,0-6.14,3.08,3.08,0,0,1,0-4.319,4.488,4.488,0,0,0,0-6.137,3.081,3.081,0,0,1,0-4.32A4.407,4.407,0,0,0,807,793.8Zm0-20a0.969,0.969,0,0,0-1.911,0,3.014,3.014,0,0,1-.883,2.16,4.486,4.486,0,0,0,0,6.136,3.083,3.083,0,0,1,0,4.32,4.488,4.488,0,0,0,0,6.137,3.087,3.087,0,0,1,0,4.324,4.5,4.5,0,0,0,0,6.142,3.014,3.014,0,0,1,.884,2.163,0.969,0.969,0,0,0,1.911,0,4.414,4.414,0,0,0-1.213-3.07,3.089,3.089,0,0,1,0-4.327,4.491,4.491,0,0,0,0-6.14,3.081,3.081,0,0,1,0-4.32,4.488,4.488,0,0,0,0-6.137,3.081,3.081,0,0,1,0-4.32A4.409,4.409,0,0,0,807,773.8ZM793,793.8a0.969,0.969,0,0,1,1.911,0,3.012,3.012,0,0,0,.883,2.16,4.486,4.486,0,0,1,0,6.136,3.083,3.083,0,0,0,0,4.32,4.486,4.486,0,0,1,0,6.136,3.088,3.088,0,0,0,0,4.325,4.5,4.5,0,0,1,0,6.142,3.014,3.014,0,0,0-.884,2.163,0.969,0.969,0,0,1-1.911,0,4.414,4.414,0,0,1,1.213-3.07,3.091,3.091,0,0,0,0-4.328,4.491,4.491,0,0,1,0-6.14,3.08,3.08,0,0,0,0-4.319,4.488,4.488,0,0,1,0-6.137,3.081,3.081,0,0,0,0-4.32A4.407,4.407,0,0,1,793,793.8Zm0-20a0.969,0.969,0,0,1,1.911,0,3.014,3.014,0,0,0,.883,2.16,4.486,4.486,0,0,1,0,6.136,3.083,3.083,0,0,0,0,4.32,4.488,4.488,0,0,1,0,6.137,3.087,3.087,0,0,0,0,4.324,4.5,4.5,0,0,1,0,6.142,3.014,3.014,0,0,0-.884,2.163,0.969,0.969,0,0,1-1.911,0,4.414,4.414,0,0,1,1.213-3.07,3.089,3.089,0,0,0,0-4.327,4.491,4.491,0,0,1,0-6.14,3.081,3.081,0,0,0,0-4.32,4.488,4.488,0,0,1,0-6.137,3.081,3.081,0,0,0,0-4.32A4.409,4.409,0,0,1,793,773.8Zm-4,5.2h2v41h-2V779Zm20,0h2v41h-2V779Z"
+                    transform="translate(-789 -769)"></path>
+                </svg>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="contact-box">
+                  <h6 class="contact__box-title">alamat kami</h6>
+                  <ul class="contact__box-list list-unstyled">
+                    <li>Jalan kampung baru Banten, kecamatan ciputat, Tangerang Selatan</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="contact-box">
+                  <h6 class="contact__box-title">jam buka</h6>
+                  <ul class="contact__box-list list-unstyled">
+                    <li>Senin - Jumat : 10.00 - 20.00</li>
+                    <li>Minggu : 08.00 - 22.00</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="contact-box">
+                  <h6 class="contact__box-title">Dinning Pribadi</h6>
+                  <ul class="contact__box-list list-unstyled">
+                    <li><span>Email:</span><a href="kangenkampoeng123@gmail.com">kangenkampoeng123@gmail.com</a></li>
+                    <li><span>Phonsel:</span><a href="tel:+62 89033712672">+62 89033712672</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-middle">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12 position-static">
+                <div class="footer__logo-wrap text-center">
+                  <img src="assets/images/icons/12.png" alt="logo" class="footer__logo">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                <p class="mb-20">Terimakasih, website yang saya buat ini hasil dari magang dari magang Gamelab ID </p>
+                <a href="reservation.html" class="btn btn__primary btn__bordered btn__lg">Pesan meja anda sekarang</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <div class="footer__copyright mb-30">
+                  <span>&copy; 2022 reserver </span>
+                  <a href="#" class="color-theme">by Siska Wahyu Trianingrum</a>
+                </div>
+                <div class="footer__copyright mb-30">
+                  <a href="https://gamelab.id" class="color-theme">powered by Gamelab</a>
+                </div>
+                <ul class="social__icons social__icons-white justify-content-center">
+                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fa fa-tripadvisor"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <svg class="footer__divider-shape-bottom" xmlns="http://www.w3.org/2000/svg" width="142" height="17"
+            viewBox="0 0 142 17">
+            <path
+              d="M800,600V583c8.782,15.985,46.811,11.315,56,12a35.721,35.721,0,0,1,15,5m-71,0V583c-8.782,15.985-46.811,11.315-56,12a35.717,35.717,0,0,0-15,5"
+              transform="translate(-729 -583)"></path>
+          </svg>
+        </div>
+      </div>
+    </footer>
+    <button id="scrollTopBtn"><i class="fa fa-angle-up"></i></button>
+
+    <div class="search-popup">
+      <i class="fa fa-times close-search"></i>
+      <form class="module__search-form">
+        <input type="text" class="search__input" placeholder="hari ini mau pesan apa yaa?">
+        <button class="module__search-btn"><i class="fa fa-search"></i></button>
+      </form>
+    </div><!-- /.search-popup -->
+
+  </div>
+  <!-- /.wrapper -->
+
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
